@@ -14,7 +14,7 @@ const sizes = ref<number>(3)
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HelloWorld msg="Thanyatorn!" />
       <nav>
         <RouterLink :to= "{name: 'event-list'}">Home</RouterLink>
         <RouterLink :to= "{name: 'about'}">About</RouterLink>
